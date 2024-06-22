@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8e5609fbdcb7e7d46bf8c34e0674bee7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechDetection/Scenes/Example03_ProxyCommandsSettings.lighting
+  uploadId: 579508

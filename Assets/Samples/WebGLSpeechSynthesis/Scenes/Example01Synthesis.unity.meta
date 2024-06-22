@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 95994985d4422f5459e270f1139ba147
+timeCreated: 1488443238
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechSynthesis/Scenes/Example01Synthesis.unity
+  uploadId: 579508

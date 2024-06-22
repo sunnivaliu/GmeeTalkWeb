@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7aea00021a1bed242b246de8d07355dc
+timeCreated: 1512593980
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechSynthesis/Scenes/Example07Buttons.unity
+  uploadId: 579508

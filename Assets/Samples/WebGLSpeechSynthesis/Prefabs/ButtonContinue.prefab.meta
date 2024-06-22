@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a96d2b535fc696b44a9bb5fa96017133
+timeCreated: 1566103732
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechSynthesis/Prefabs/ButtonContinue.prefab
+  uploadId: 579508

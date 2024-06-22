@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 615fc0272affc9f459586950f3869fe5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechDetection/Scenes/Example04_ProxyDictationSettings.lighting
+  uploadId: 579508

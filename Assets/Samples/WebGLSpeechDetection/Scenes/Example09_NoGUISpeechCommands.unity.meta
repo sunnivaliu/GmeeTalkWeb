@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5942d3c471801504397c019e58fb94f4
+timeCreated: 1498938441
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechDetection/Scenes/Example09_NoGUISpeechCommands.unity
+  uploadId: 579508

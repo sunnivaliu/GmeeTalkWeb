@@ -1,0 +1,52 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="UnityEngine.PostProcessing.AmbientOcclusionModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.AmbientOcclusionModel/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.AntialiasingModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.AntialiasingModel/FxaaSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.AntialiasingModel/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.AntialiasingModel/TaaSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.BloomModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.BloomModel/BloomSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.BloomModel/LensDirtSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.BloomModel/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.BuiltinDebugViewsModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.BuiltinDebugViewsModel/DepthSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.BuiltinDebugViewsModel/MotionVectorsSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.BuiltinDebugViewsModel/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ChromaticAberrationModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ChromaticAberrationModel/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ColorGradingCurve" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ColorGradingModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ColorGradingModel/BasicSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ColorGradingModel/ChannelMixerSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ColorGradingModel/ColorWheelsSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ColorGradingModel/CurvesSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ColorGradingModel/LinearWheelsSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ColorGradingModel/LogWheelsSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ColorGradingModel/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ColorGradingModel/TonemappingSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.DepthOfFieldModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.DepthOfFieldModel/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.DitheringModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.DitheringModel/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.EyeAdaptationModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.EyeAdaptationModel/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.FogModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.FogModel/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.GrainModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.GrainModel/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.MotionBlurModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.MotionBlurModel/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.PostProcessingProfile/MonitorSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ScreenSpaceReflectionModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ScreenSpaceReflectionModel/IntensitySettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ScreenSpaceReflectionModel/ReflectionSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ScreenSpaceReflectionModel/ScreenEdgeMask" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.ScreenSpaceReflectionModel/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.UserLutModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.UserLutModel/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.VignetteModel" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.PostProcessing.VignetteModel/Settings" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>

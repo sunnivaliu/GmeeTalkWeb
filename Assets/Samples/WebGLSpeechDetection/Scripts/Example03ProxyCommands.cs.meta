@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ca750837065a64f4089d56847ef7bbda
+timeCreated: 1487315117
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechDetection/Scripts/Example03ProxyCommands.cs
+  uploadId: 579508

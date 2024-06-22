@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: dc9055835a4348f4ca11259c65c6a738
+timeCreated: 1492933037
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechSynthesis/Scripts/AISbaitso.cs
+  uploadId: 579508

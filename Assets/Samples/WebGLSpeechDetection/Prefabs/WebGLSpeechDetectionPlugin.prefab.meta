@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 26b2e9d087c0061438d3ccffd78fe62b
+timeCreated: 1527097832
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechDetection/Prefabs/WebGLSpeechDetectionPlugin.prefab
+  uploadId: 579508

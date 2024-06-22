@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f4a7086464797d041a2e67f088a8da99
+timeCreated: 1488423409
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechDetection/Scenes/Example04_ProxyDictation.unity
+  uploadId: 579508

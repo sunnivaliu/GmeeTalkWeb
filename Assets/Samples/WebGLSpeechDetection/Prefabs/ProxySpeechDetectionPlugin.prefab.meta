@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 72052c559e8253541b541b2c1287e897
+timeCreated: 1527097837
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechDetection/Prefabs/ProxySpeechDetectionPlugin.prefab
+  uploadId: 579508

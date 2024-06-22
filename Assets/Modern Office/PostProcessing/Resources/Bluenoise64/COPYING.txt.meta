@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fa3fc398fe396744c9299e70b63bfdd7
+timeCreated: 1485181015
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39886
+  packageName: Modern Office
+  packageVersion: 1.3
+  assetPath: Assets/Modern Office/PostProcessing/Resources/Bluenoise64/COPYING.txt
+  uploadId: 616779

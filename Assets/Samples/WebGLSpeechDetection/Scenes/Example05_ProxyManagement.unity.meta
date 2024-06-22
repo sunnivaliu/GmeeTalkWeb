@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 24ca3350602e5e44eb2189a9dc9e643c
+timeCreated: 1488421922
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechDetection/Scenes/Example05_ProxyManagement.unity
+  uploadId: 579508

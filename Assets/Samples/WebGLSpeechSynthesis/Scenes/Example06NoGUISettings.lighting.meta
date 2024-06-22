@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e40034d07db5139449075dc2e6925fea
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechSynthesis/Scenes/Example06NoGUISettings.lighting
+  uploadId: 579508

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0ed20748b219bc14a9872e69f5f9bc83
+timeCreated: 1488860422
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechSynthesis/Editor/Example05PanelSynthesis.cs
+  uploadId: 579508

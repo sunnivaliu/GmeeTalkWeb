@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b6e42614562a56445ba4b5d90301f06f
+timeCreated: 1487080088
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39886
+  packageName: Modern Office
+  packageVersion: 1.3
+  assetPath: Assets/Modern Office/PostProcessing/Resources/Shaders/UberSecondPass.cginc
+  uploadId: 616779

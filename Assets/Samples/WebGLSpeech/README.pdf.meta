@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 898c37ca4c1333944a29e9946a57bbbe
+timeCreated: 1511664210
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeech/README.pdf
+  uploadId: 579508

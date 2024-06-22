@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d9aaddbba92f7924d8723fe0b1a4c089
+timeCreated: 1488100452
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechSynthesis/Scripts/SpeechSynthesisUtterance.cs
+  uploadId: 579508

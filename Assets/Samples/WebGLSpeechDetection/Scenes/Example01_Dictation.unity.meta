@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b28f170f5ceef57449c7f4cddc553049
+timeCreated: 1488422906
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechDetection/Scenes/Example01_Dictation.unity
+  uploadId: 579508

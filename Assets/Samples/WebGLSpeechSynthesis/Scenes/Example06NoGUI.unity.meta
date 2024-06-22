@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b20b5307c7d30e94d81c1181ff961d12
+timeCreated: 1498929056
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105831
+  packageName: WebGL Speech
+  packageVersion: 1.12
+  assetPath: Assets/WebGLSpeechSynthesis/Scenes/Example06NoGUI.unity
+  uploadId: 579508
