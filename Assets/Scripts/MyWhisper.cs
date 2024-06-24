@@ -10,6 +10,7 @@ namespace Samples.Whisper
         [SerializeField] private Image progressBar;
         [SerializeField] private Text message;
         [SerializeField] private Dropdown dropdown;
+        [SerializeField] private MyTextGenerator MyTextGeneratorInstance;
 
         private readonly string fileName = "output.wav";
         private readonly int duration = 2;
@@ -85,8 +86,7 @@ namespace Samples.Whisper
             TranscribedText = res.Text;
             recordButton.enabled = true;
 
-            //MyTextGenerator MyTextGeneratorInstance = new MyTextGenerator();
-            //MyTextGeneratorInstance.SendReply(); // Accessing the internal method
+            MyTextGeneratorInstance.SendReply(); // Send to TextGenerator
         }
 
         private void Update()

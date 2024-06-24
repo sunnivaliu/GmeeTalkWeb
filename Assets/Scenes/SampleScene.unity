@@ -3753,6 +3753,7 @@ MonoBehaviour:
   progressBar: {fileID: 1515601393}
   message: {fileID: 1489324598}
   dropdown: {fileID: 1503480692}
+  MyTextGeneratorInstance: {fileID: 1294567928}
 --- !u!1001 &755212901
 PrefabInstance:
   m_ObjectHideFlags: 0
