@@ -1,0 +1,16 @@
+Log
+
+Library
+
+Assets/Inworld
+
+# Ignore specific large files
+Assets/Inworld/InworldExtraAssets.unitypackage
+
+# Ignore other unwanted files or directories
+*.log
+*.tmp
+.DS_Store
+
+Library/PackageCache/
+Library/PackageCache/

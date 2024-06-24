@@ -49,12 +49,12 @@ namespace Samples.Whisper
             isRecording = true;
             recordButton.enabled = false;
 
-            var index = PlayerPrefs.GetInt("user-mic-device-index");
+            var index = PlayerPrefs.GetInt("user-mic-device-index") - 1; //Manually added - 1 to match the drop down
 
             ////Uncomment this when building in WebGL
 
             //#if !UNITY_WEBGL
-            //clip = Microphone.Start(dropdown.options[index].text, false, duration, 44100);
+            //            clip = Microphone.Start(dropdown.options[index].text, false, duration, 44100);
             //#endif
 
             clip = Microphone.Start(dropdown.options[index].text, false, duration, 44100);
@@ -65,10 +65,9 @@ namespace Samples.Whisper
         {
             message.text = "Transcripting...";
 
-//#if !UNITY_WEBGL
-//            Microphone.End(null);
-//#endif
+#if !UNITY_WEBGL
             Microphone.End(null);
+#endif
 
             byte[] data = MySaveAudio.Save(fileName, clip);
 
@@ -85,6 +84,9 @@ namespace Samples.Whisper
             message.text = res.Text;
             TranscribedText = res.Text;
             recordButton.enabled = true;
+
+            //MyTextGenerator MyTextGeneratorInstance = new MyTextGenerator();
+            //MyTextGeneratorInstance.SendReply(); // Accessing the internal method
         }
 
         private void Update()

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.inworld.unity.core": "file:/Users/sunniva/Desktop/GMeeTalk-WebGL/Assets/Inworld/com.inworld.unity.core-3.4.0.tgz",
     "com.srcnalt.openai-unity": "https://github.com/srcnalt/OpenAI-Unity.git",
     "com.unity.collab-proxy": "2.3.1",
     "com.unity.connect.share": "4.2.3",

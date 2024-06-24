@@ -4,16 +4,20 @@ using System.Collections.Generic;
 
 namespace OpenAI
 {
-    public class MyGPT : MonoBehaviour
+    public class MyTextGenerator : MonoBehaviour
     {
         [SerializeField] private InputField inputField;
-        [SerializeField] private Button button;
+        [SerializeField] public Button button;
         [SerializeField] private ScrollRect scroll;
 
         [SerializeField] private RectTransform sent;
         [SerializeField] private RectTransform received;
 
+
         private float height;
+        public GameObject PlayAudioObject;
+        private PlayAudio PlayAudioInstance;
+
         //API KEY
         private OpenAIApi openai = new OpenAIApi("sk-proj-XU2mdapkeng3A4BY13AET3BlbkFJh8S0TB8fonhSFyTTSi8D");
 
@@ -22,25 +26,18 @@ namespace OpenAI
 
         private void Start()
         {
-            //API is called once 'Send' is pressed
-            button.onClick.AddListener(SendReply); 
+            button.onClick.AddListener(SendReply); //API is called once 'Send' is pressed
+
+            var initMessage = new ChatMessage()
+            {
+                Content = "GPT Answers Here",
+            };
+            AppendMessage(initMessage);
         }
 
-        private void AppendMessage(ChatMessage message)
+        public async void SendReply()
         {
-            scroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 0);
-
-            var item = Instantiate(message.Role == "user" ? sent : received, scroll.content);
-            item.GetChild(0).GetChild(0).GetComponent<Text>().text = message.Content;
-            item.anchoredPosition = new Vector2(0, -height);
-            LayoutRebuilder.ForceRebuildLayoutImmediate(item);
-            height += item.sizeDelta.y;
-            scroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height);
-            scroll.verticalNormalizedPosition = 0;
-        }
-
-        private async void SendReply()
-        {
+            ////Default
             //var newMessage = new ChatMessage()
             //{
             //    Role = "user",
@@ -52,11 +49,14 @@ namespace OpenAI
                 Role = "user",
                 Content = Samples.Whisper.MyWhisper.TranscribedText
             };
-
+            if (newMessage.Content == null)
+            {
+                newMessage.Content = inputField.text;
+            }
+            Debug.Log("Audio Transcribed: " + Samples.Whisper.MyWhisper.TranscribedText);
             AppendMessage(newMessage);
 
-            if (messages.Count == 0) newMessage.Content = prompt + "\n" + inputField.text;
-
+            if (messages.Count == 0) newMessage.Content = prompt + "\n" + newMessage.Content;
             messages.Add(newMessage);
 
             button.enabled = false;
@@ -73,14 +73,12 @@ namespace OpenAI
             {
                 var message = completionResponse.Choices[0].Message;
                 message.Content = message.Content.Trim();
-
                 messages.Add(message);
                 AppendMessage(message); //Push to canvas
 
-                for (int i = 0; i < completionResponse.Choices.Count; i++)
-                {
-                    Debug.Log("GPT Response " + i + "i" + completionResponse.Choices[i]);
-                }
+
+                PlayAudioInstance = PlayAudioObject.GetComponent<PlayAudio>();
+                PlayAudioInstance.TurnReplyToAudio(message.Content);
             }
             else
             {
@@ -89,7 +87,21 @@ namespace OpenAI
 
             button.enabled = true;
             inputField.enabled = true;
+            
         }
+
+        private void AppendMessage(ChatMessage message)
+        {
+            scroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 0);
+            var item = Instantiate(message.Role == "user" ? sent : received, scroll.content);
+            item.GetChild(0).GetChild(0).GetComponent<Text>().text = message.Content;
+            item.anchoredPosition = new Vector2(0, -height);
+            LayoutRebuilder.ForceRebuildLayoutImmediate(item);
+            height += item.sizeDelta.y;
+            scroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height);
+            scroll.verticalNormalizedPosition = 0;
+        }
+
     }
 }
 
