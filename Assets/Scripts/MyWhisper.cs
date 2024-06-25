@@ -1,6 +1,8 @@
 using OpenAI;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
+using Microphone = Estrada.Microphone;
 
 namespace Samples.Whisper
 {
@@ -23,11 +25,22 @@ namespace Samples.Whisper
         //Output to text model
         public static string TranscribedText;
 
-        private void Start()
+        private IEnumerator Start()
         {
-#if UNITY_WEBGL && !UNITY_EDITOR
-            dropdown.options.Add(new Dropdown.OptionData("Microphone not supported on WebGL"));
-#else
+//#if UNITY_WEBGL && !UNITY_EDITOR
+//            dropdown.options.Add(new Dropdown.OptionData("Microphone not supported on WebGL"));
+//#else
+
+            if (Microphone.RequiresPermission())
+            {
+                yield return Microphone.RequestPermission();
+            }
+            if (!Microphone.HasPermission())
+            {
+                Debug.LogError("Mic Permission Not Granted");
+                yield break;
+            }
+
             foreach (var device in Microphone.devices)
             {
                 dropdown.options.Add(new Dropdown.OptionData(device));
@@ -37,7 +50,7 @@ namespace Samples.Whisper
 
             var index = PlayerPrefs.GetInt("user-mic-device-index");
             dropdown.SetValueWithoutNotify(index);
-#endif
+//#endif
         }
 
         private void ChangeMicrophone(int index)
@@ -53,10 +66,9 @@ namespace Samples.Whisper
             var index = PlayerPrefs.GetInt("user-mic-device-index") - 1; //Manually added - 1 to match the drop down
 
             ////Uncomment this when building in WebGL
-
-            //#if !UNITY_WEBGL
-            //            clip = Microphone.Start(dropdown.options[index].text, false, duration, 44100);
-            //#endif
+//#if !UNITY_WEBGL
+//            clip = Microphone.Start(dropdown.options[index].text, false, duration, 44100);
+//#endif
 
             clip = Microphone.Start(dropdown.options[index].text, false, duration, 44100);
 
@@ -66,9 +78,9 @@ namespace Samples.Whisper
         {
             message.text = "Transcripting...";
 
-#if !UNITY_WEBGL
-            Microphone.End(null);
-#endif
+//#if !UNITY_WEBGL
+//            Microphone.End(null);
+//#endif
 
             byte[] data = MySaveAudio.Save(fileName, clip);
 

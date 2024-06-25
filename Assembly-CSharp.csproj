@@ -1240,8 +1240,8 @@
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics">
@@ -1252,16 +1252,16 @@
       <HintPath>Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+    <Reference Include="glTFast">
+      <HintPath>Library/ScriptAssemblies/glTFast.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Inworld.AI">
       <HintPath>Library/ScriptAssemblies/Inworld.AI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="glTFast">
-      <HintPath>Library/ScriptAssemblies/glTFast.dll</HintPath>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+      <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
@@ -1326,6 +1326,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Estrada.csproj">
+      <Project>{C6224A9D-EEA0-89A3-C43B-FD19BB555FFF}</Project>
+      <Name>Estrada</Name>
+    </ProjectReference>
     <ProjectReference Include="Inworld.Editor.csproj">
       <Project>{B2E94ED8-DC16-7129-8924-1048C4BFC39B}</Project>
       <Name>Inworld.Editor</Name>

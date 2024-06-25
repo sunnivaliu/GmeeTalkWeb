@@ -1,29 +1,35 @@
 ﻿<Properties StartupConfiguration="{69017E71-63DA-5DF6-6358-8C7B9A21EA42}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MyWhisper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayAudio.cs">
     <Files>
       <File FileName="Assets/Modern Office/Scripts/RotateMoveCamera.cs" Line="23" Column="6" />
       <File FileName="Assets/Scripts/MySaveAudio.cs" />
       <File FileName="Assets/Scripts/MyTextGenerator.cs" />
-      <File FileName="Assets/Scripts/MyWhisper.cs" Line="88" Column="1" />
-      <File FileName="Assets/Scripts/PlayAudio.cs" Line="34" Column="10" />
+      <File FileName="Assets/Scripts/MyWhisper.cs" Line="42" Column="14" />
+      <File FileName="Assets/Scripts/PlayAudio.cs" Line="41" Column="1" />
       <File FileName="Assets/Scripts/WavUtility.cs" />
+      <File FileName="Assets/Inworld/Inworld.Assets/Scripts/Sample/AudioCaptureTest.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GMeeTalk-WebGL" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
               <Node name="Modern Office" expanded="True">
                 <Node name="Scripts" expanded="True" />
               </Node>
-              <Node name="Samples" expanded="True">
-                <Node name="WebGLSpeechSynthesis" expanded="True">
-                  <Node name="Scripts" expanded="True" />
-                </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="PlayAudio.cs" selected="True" />
               </Node>
-              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

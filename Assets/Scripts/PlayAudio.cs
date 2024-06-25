@@ -37,25 +37,29 @@ namespace OpenAI
 
         private async void TextToAudio(string ResponseText)
         {
-            byte[] audioData = await SendRequest(ResponseText);
-            if (audioData != null)
-            {
-                Debug.Log("Audio data received. " + audioData[0] + audioData[10]);
-                PlayResponse(audioData);
-                
-                //AudioClip audioClip = Inworld.WavUtilityFromInworld.ToAudioClip(audioData);
-                //if (audioClip != null)
-                //{
-                //    audioSource.clip = audioClip;
-                //    audioSource.Play();
-                //    Debug.Log("Playing audio.");
-                //}
-            }
+            await SendRequest(ResponseText);
 
-            else
-            {
-                Debug.LogError("Failed to receive audio data.");
-            }
+            ////Original Reloading Method
+            //byte[] audioData = await SendRequest(ResponseText);
+            //if (audioData != null)
+            //{
+            //Debug.Log("Audio data received. " + audioData[0] + audioData[10]);
+            //PlayResponse(audioData); 
+
+            ////Use Inworld to turn to audio clip
+            //AudioClip audioClip = Inworld.WavUtilityFromInworld.ToAudioClip(audioData);
+            //if (audioClip != null)
+            //{
+            //    audioSource.clip = audioClip;
+            //    audioSource.Play();
+            //    Debug.Log("Playing audio.");
+            //}
+            //}
+
+            //else
+            //{
+            //    Debug.LogError("Failed to receive audio data.");
+            //}
         }
 
 
@@ -71,25 +75,52 @@ namespace OpenAI
                 speed = 1f
             };
             string jsonPayload = JsonUtility.ToJson(payload);
-            UnityWebRequest request = new UnityWebRequest("https://api.openai.com/v1/audio/speech", "POST");
 
-            byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonPayload);
-            request.uploadHandler = new UploadHandlerRaw(bodyRaw);
-            request.downloadHandler = new DownloadHandlerBuffer();
-            request.SetRequestHeader("Content-Type", "application/json");
-            request.SetRequestHeader("Authorization", "Bearer " + "sk-proj-XU2mdapkeng3A4BY13AET3BlbkFJh8S0TB8fonhSFyTTSi8D"); //API KEY
 
-            await request.SendWebRequest();
-
-            if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
+            //TEST
+            using (UnityWebRequest www = new UnityWebRequest("https://api.openai.com/v1/audio/speech", "POST"))
             {
-                Debug.LogError("Error: " + request.error);
-                return null;
+                byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonPayload);
+                www.uploadHandler = new UploadHandlerRaw(bodyRaw);
+                www.downloadHandler = new DownloadHandlerAudioClip("https://api.openai.com/v1/audio/speech", AudioType.MPEG);
+                www.SetRequestHeader("Content-Type", "application/json");
+                www.SetRequestHeader("Authorization", "Bearer " + "sk-proj-XU2mdapkeng3A4BY13AET3BlbkFJh8S0TB8fonhSFyTTSi8D");
+
+                await www.SendWebRequest();
+
+                if (www.result == UnityWebRequest.Result.ConnectionError || www.result == UnityWebRequest.Result.ProtocolError)
+                {
+                    Debug.LogError("Error: " + www.error);
+                }
+                else if (www.result == UnityWebRequest.Result.Success)
+                {
+                    AudioClip audioClip = DownloadHandlerAudioClip.GetContent(www);
+                    audioSource = audioObject.GetComponent<AudioSource>();
+                    audioSource.clip = audioClip;
+                    audioSource.Play();
+                }
             }
-            else
-            {
-                return request.downloadHandler.data;
-            }
+
+            //UnityWebRequest request = new UnityWebRequest("https://api.openai.com/v1/audio/speech", "POST");
+
+            //byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonPayload);
+            //request.uploadHandler = new UploadHandlerRaw(bodyRaw);
+            //request.downloadHandler = new DownloadHandlerBuffer();
+            //request.SetRequestHeader("Content-Type", "application/json");
+            //request.SetRequestHeader("Authorization", "Bearer " + "sk-proj-XU2mdapkeng3A4BY13AET3BlbkFJh8S0TB8fonhSFyTTSi8D"); //API KEY
+
+            //await request.SendWebRequest();
+
+            //if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
+            //{
+            //    Debug.LogError("Error: " + request.error);
+            //    return null;
+            //}
+            //else
+            //{
+            //    return request.downloadHandler.data;
+            //}
+            return null;
 
         }
 

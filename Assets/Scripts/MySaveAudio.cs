@@ -34,7 +34,8 @@ namespace Samples.Whisper
 		{
 			var samples = new float[clip.samples];
 
-			clip.GetData(samples, 0);
+			Estrada.Microphone.GetCurrentData(samples, clip.samples);
+			//clip.GetData(samples, 0);
 
 			return TrimSilence(new List<float>(samples), min, clip.channels, clip.frequency);
 		}
