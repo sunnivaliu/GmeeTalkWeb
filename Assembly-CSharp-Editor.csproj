@@ -1136,8 +1136,16 @@
       <HintPath>Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="OpenAI.Runtime">
       <HintPath>Library/ScriptAssemblies/OpenAI.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="uLipSync.Runtime">
+      <HintPath>Library/ScriptAssemblies/uLipSync.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UI">
@@ -1232,6 +1240,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
@@ -1240,8 +1252,16 @@
       <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="uLipSync.Editor">
+      <HintPath>Library/ScriptAssemblies/uLipSync.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniWebView-CSharp.Editor">
+      <HintPath>Library/ScriptAssemblies/UniWebView-CSharp.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
@@ -1254,6 +1274,10 @@
     </Reference>
     <Reference Include="OpenAI.Editor">
       <HintPath>Library/ScriptAssemblies/OpenAI.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Avaturn.Core.Runtime">
+      <HintPath>Library/ScriptAssemblies/Avaturn.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst">
@@ -1280,6 +1304,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UniWebView-CSharp">
+      <HintPath>Library/ScriptAssemblies/UniWebView-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
@@ -1289,6 +1317,14 @@
     <ProjectReference Include="Estrada.csproj">
       <Project>{C6224A9D-EEA0-89A3-C43B-FD19BB555FFF}</Project>
       <Name>Estrada</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityChan.csproj">
+      <Project>{28E2E31D-C6FC-764E-F445-A4EE6761EB3F}</Project>
+      <Name>UnityChan</Name>
+    </ProjectReference>
+    <ProjectReference Include="uLipSync.Samples.WebGL.Runtime.csproj">
+      <Project>{B29FA2AF-7E5D-8E6A-232D-FD4D259B8B4E}</Project>
+      <Name>uLipSync.Samples.WebGL.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Inworld.Editor.csproj">
       <Project>{B2E94ED8-DC16-7129-8924-1048C4BFC39B}</Project>
@@ -1301,6 +1337,14 @@
     <ProjectReference Include="Inworld.Samples.csproj">
       <Project>{E4BE778E-51E7-3FEE-B4DF-48F696233D36}</Project>
       <Name>Inworld.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="uLipSync.Samples.Common.csproj">
+      <Project>{8063AB86-E935-EF24-FA4B-54B057198711}</Project>
+      <Name>uLipSync.Samples.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="uLipSync.Example.RuntimeProfile.Runtime.csproj">
+      <Project>{8E6E8991-E081-6C1C-3E65-054E0A349DBC}</Project>
+      <Name>uLipSync.Example.RuntimeProfile.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Inworld.RPM.csproj">
       <Project>{15E1947C-00B0-1621-712E-9251B8782E00}</Project>

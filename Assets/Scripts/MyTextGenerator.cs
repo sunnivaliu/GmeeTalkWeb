@@ -8,11 +8,11 @@ namespace OpenAI
     {
         [SerializeField] private InputField inputField;
         [SerializeField] public Button button;
+        [SerializeField] private Button startButton;
         [SerializeField] private ScrollRect scroll;
 
         [SerializeField] private RectTransform sent;
         [SerializeField] private RectTransform received;
-
 
         private float height;
         public GameObject PlayAudioObject;
@@ -20,19 +20,31 @@ namespace OpenAI
 
         //API KEY
         private OpenAIApi openai = new OpenAIApi("sk-proj-XU2mdapkeng3A4BY13AET3BlbkFJh8S0TB8fonhSFyTTSi8D");
-
         private List<ChatMessage> messages = new List<ChatMessage>();
-        private string prompt = "Act as a HR sitting in front of an Interviewee candidate in a chat room and reply to the questions. Don't break character. Don't ever mention that you are an AI model.";
+        //private string prompt = "Act as a HR sitting in front of an Interviewee candidate in a chat room and reply to the questions. Don't break character. Don't ever mention that you are an AI model.";
+
+        private bool started = false;
 
         private void Start()
         {
             button.onClick.AddListener(SendReply); //API is called once 'Send' is pressed
+            startButton.onClick.AddListener(RestartChat);
+        }
 
-            var initMessage = new ChatMessage()
+        private void RestartChat()
+        {
+            messages = new List<ChatMessage>();
+            var systemMessage = new ChatMessage()
             {
-                Content = "GPT Answers Here",
+                Role = "system",
+                Content = CreatePromptings.SystemPrompt,
             };
-            AppendMessage(initMessage);
+            messages.Add(systemMessage);
+            started = false;
+            SendReply();
+            started = true;
+
+            EndingCreation.HideFeedback();
         }
 
         public async void SendReply()
@@ -43,21 +55,39 @@ namespace OpenAI
             //    Role = "user",
             //    Content = inputField.text
             //};
+            Debug.Log("Audio Transcribed: " + Samples.Whisper.MyWhisper.TranscribedText);
 
+            //audio input
             var newMessage = new ChatMessage()
             {
                 Role = "user",
                 Content = Samples.Whisper.MyWhisper.TranscribedText
             };
-            if (newMessage.Content == null)
+            //reset audio input
+            Samples.Whisper.MyWhisper.TranscribedText = "";
+
+            //If no input
+            if (started == true && (newMessage.Content == null || newMessage.Content.Length < 5))
             {
                 newMessage.Content = inputField.text;
+                if (inputField.text == null || inputField.text.Length < 5)
+                {
+                    newMessage.Content = CreatePromptings.PlaceholderResponse;
+                }
             }
-            Debug.Log("Audio Transcribed: " + Samples.Whisper.MyWhisper.TranscribedText);
-            AppendMessage(newMessage);
+            //starter input
+            if (started == false)
+            {
+                newMessage.Content = CreatePromptings.InitScript;
+            }
 
-            if (messages.Count == 0) newMessage.Content = prompt + "\n" + newMessage.Content;
+            AppendMessage(newMessage);
             messages.Add(newMessage);
+            
+            foreach (var item in messages)
+            {
+                Debug.Log(messages.Count + " " + item.Role + " "+ item.Content + " ");
+            }
 
             button.enabled = false;
             inputField.text = "";
@@ -75,8 +105,7 @@ namespace OpenAI
                 message.Content = message.Content.Trim();
                 messages.Add(message);
                 AppendMessage(message); //Push to canvas
-
-
+                EndingCreation.checkEnding(message.Content); //Check if this is the ending
                 PlayAudioInstance = PlayAudioObject.GetComponent<PlayAudio>();
                 PlayAudioInstance.TurnReplyToAudio(message.Content);
             }
@@ -86,8 +115,17 @@ namespace OpenAI
             }
 
             button.enabled = true;
-            inputField.enabled = true;
+            inputField.enabled = true; 
             
+        }
+
+        public void ErrorMessage()
+        {
+            var errorMessage = new ChatMessage()
+            {
+                Content = CreatePromptings.ErrorScript,
+            };
+            AppendMessage(errorMessage);
         }
 
         private void AppendMessage(ChatMessage message)
@@ -100,6 +138,17 @@ namespace OpenAI
             height += item.sizeDelta.y;
             scroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height);
             scroll.verticalNormalizedPosition = 0;
+        }
+
+        private void OnDestroy()
+        {
+            height = 0;
+            foreach (Transform child in scroll.content)
+            {
+                Destroy(child.gameObject);
+            }
+            scroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 0);
+            scroll.verticalNormalizedPosition = 1;
         }
 
     }

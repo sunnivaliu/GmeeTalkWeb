@@ -1,3 +1,4 @@
+com.hecomi.ulipsync@3.1.2
 com.inworld.unity.core@3.4.0
 com.srcnalt.openai-unity@0.2.0
 com.unity.collab-proxy@2.3.1

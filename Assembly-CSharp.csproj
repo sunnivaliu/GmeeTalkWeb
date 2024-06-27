@@ -81,6 +81,7 @@
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/ColorGradingComponent.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/AISbaitso.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/SpeechSynthesisUtterance.cs" />
+    <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/VirtualInputs/UIVirtualJoystick.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/ProxySpeechSynthesisPlugin.cs" />
@@ -95,12 +96,15 @@
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/WWWEditMode.cs" />
     <Compile Include="Assets/Scripts/MyTextGenerator.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/VoiceResult.cs" />
+    <Compile Include="Assets/Scripts/MyInworldSessionCanvas.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example02SpeechCommands.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Utils/GraphicsUtils.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Dialect.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/ColorGradingModel.cs" />
+    <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/VirtualControllerInput.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example03ProxyCommands.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Attributes/TrackballAttribute.cs" />
+    <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/ThirdPersonController.cs" />
     <Compile Include="Assets/Samples/OpenAI Unity/0.2.0/Whisper/SaveWav.cs" />
     <Compile Include="Assets/Scripts/MoveCamera.cs" />
     <Compile Include="Assets/Samples/OpenAI Unity/0.2.0/Stream Response/StreamResponse.cs" />
@@ -122,7 +126,9 @@
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/LanguageResult.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/FogComponent.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/DepthOfFieldModel.cs" />
+    <Compile Include="Assets/Scripts/CreatePromptings.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/WWWPlayMode.cs" />
+    <Compile Include="Assets/Scripts/MyAudioListPlayer.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/ISpeechSynthesisPlugin.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/AntialiasingModel.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs" />
@@ -132,6 +138,7 @@
     <Compile Include="Assets/Samples/OpenAI Unity/0.2.0/ChatGPT/ChatGPT.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Attributes/MinAttribute.cs" />
     <Compile Include="Assets/Scripts/PlayAudio.cs" />
+    <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/PlayerInput.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/EyeAdaptationModel.cs" />
     <Compile Include="Assets/Samples/OpenAI Unity/0.2.0/Whisper/Whisper.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/WebGLSpeechDetectionPlugin.cs" />
@@ -146,6 +153,7 @@
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/Example01Synthesis.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/BloomComponent.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" />
+    <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/VirtualInputs/UIVirtualButton.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/BaseSpeechSynthesisPlugin.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/PostProcessingContext.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/SpeechProxyConfig.cs" />
@@ -154,12 +162,15 @@
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/ISpeechDetectionPlugin.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/LanguageChangedResult.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example04ProxyDictation.cs" />
+    <Compile Include="Assets/Scripts/EndingCreation.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/PostProcessingComponent.cs" />
+    <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Environment/Scripts/MaterialsSetup.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/PostProcessingProfile.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/DitheringComponent.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/Voice.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Utils/MaterialFactory.cs" />
+    <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/VirtualInputs/UIVirtualTouchZone.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/Example03ProxyManagement.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/PostProcessingModel.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/DetectionResult.cs" />
@@ -1180,8 +1191,16 @@
       <HintPath>/Applications/Unity/Hub/Editor/2023.2.20f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="OpenAI.Runtime">
       <HintPath>Library/ScriptAssemblies/OpenAI.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="uLipSync.Runtime">
+      <HintPath>Library/ScriptAssemblies/uLipSync.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UI">
@@ -1276,6 +1295,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
@@ -1284,8 +1307,16 @@
       <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="uLipSync.Editor">
+      <HintPath>Library/ScriptAssemblies/uLipSync.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniWebView-CSharp.Editor">
+      <HintPath>Library/ScriptAssemblies/UniWebView-CSharp.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
@@ -1298,6 +1329,10 @@
     </Reference>
     <Reference Include="OpenAI.Editor">
       <HintPath>Library/ScriptAssemblies/OpenAI.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Avaturn.Core.Runtime">
+      <HintPath>Library/ScriptAssemblies/Avaturn.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst">
@@ -1324,11 +1359,27 @@
       <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UniWebView-CSharp">
+      <HintPath>Library/ScriptAssemblies/UniWebView-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Estrada.csproj">
       <Project>{C6224A9D-EEA0-89A3-C43B-FD19BB555FFF}</Project>
       <Name>Estrada</Name>
+    </ProjectReference>
+    <ProjectReference Include="IngameDebugConsole.Runtime.csproj">
+      <Project>{8AEBE451-C939-38DE-BE2F-89F58362D543}</Project>
+      <Name>IngameDebugConsole.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityChan.csproj">
+      <Project>{28E2E31D-C6FC-764E-F445-A4EE6761EB3F}</Project>
+      <Name>UnityChan</Name>
+    </ProjectReference>
+    <ProjectReference Include="uLipSync.Samples.WebGL.Runtime.csproj">
+      <Project>{B29FA2AF-7E5D-8E6A-232D-FD4D259B8B4E}</Project>
+      <Name>uLipSync.Samples.WebGL.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Inworld.Editor.csproj">
       <Project>{B2E94ED8-DC16-7129-8924-1048C4BFC39B}</Project>
@@ -1341,6 +1392,18 @@
     <ProjectReference Include="Inworld.Samples.csproj">
       <Project>{E4BE778E-51E7-3FEE-B4DF-48F696233D36}</Project>
       <Name>Inworld.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="uLipSync.Samples.Common.csproj">
+      <Project>{8063AB86-E935-EF24-FA4B-54B057198711}</Project>
+      <Name>uLipSync.Samples.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="uLipSync.Example.RuntimeProfile.Runtime.csproj">
+      <Project>{8E6E8991-E081-6C1C-3E65-054E0A349DBC}</Project>
+      <Name>uLipSync.Example.RuntimeProfile.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="IngameDebugConsole.Editor.csproj">
+      <Project>{531C531F-59F7-D748-E836-E7EFB3A26CD9}</Project>
+      <Name>IngameDebugConsole.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Inworld.RPM.csproj">
       <Project>{15E1947C-00B0-1621-712E-9251B8782E00}</Project>

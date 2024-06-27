@@ -15,7 +15,7 @@ namespace Samples.Whisper
         [SerializeField] private MyTextGenerator MyTextGeneratorInstance;
 
         private readonly string fileName = "output.wav";
-        private readonly int duration = 2;
+        private readonly int duration = 20;
 
         private AudioClip clip;
         private bool isRecording;

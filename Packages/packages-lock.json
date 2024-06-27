@@ -1,5 +1,26 @@
 {
   "dependencies": {
+    "com.avaturn.webview": {
+      "version": "https://github.com/avaturn/avaturn-unity-webview-sdk.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.cloud.gltfast": "5.2.0",
+        "com.unity.cinemachine": "2.6.17"
+      },
+      "hash": "e2be3c930826d5eba3bced038cc68d08e53667c4"
+    },
+    "com.hecomi.ulipsync": {
+      "version": "https://github.com/hecomi/uLipSync.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.burst": "1.4.11",
+        "com.unity.mathematics": "1.2.5"
+      },
+      "hash": "611f43665931d242e5eca35fbc410669d582ec24"
+    },
     "com.inworld.unity.core": {
       "version": "file:/Users/sunniva/Desktop/GMeeTalk-WebGL/Assets/Inworld/com.inworld.unity.core-3.4.0.tgz",
       "depth": 0,
@@ -21,11 +42,20 @@
     },
     "com.unity.burst": {
       "version": "1.8.13",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.cinemachine": {
+      "version": "2.10.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31"
       },
       "url": "https://packages.unity.com"
     },

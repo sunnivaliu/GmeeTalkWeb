@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using UnityEngine.Networking;
+using Inworld.Sample.RPM;
 
 namespace OpenAI
 {
@@ -14,9 +15,15 @@ namespace OpenAI
         public GameObject audioObject;
         private AudioSource audioSource;
 
+        public GameObject TextGenerator;
+        private MyTextGenerator MyTextGeneratorInstance;
+        
+        private bool updatingLipSync = false;
+
         void Start()
         {
             audioSource = audioObject.GetComponent<AudioSource>();
+            MyTextGeneratorInstance = TextGenerator.GetComponent<MyTextGenerator>();
             if (audioSource.clip == null) { Debug.Log("Audio source is null"); }
             Debug.Log("path: " + Directory.GetParent(Application.dataPath).FullName);
         }
@@ -55,13 +62,11 @@ namespace OpenAI
             //    Debug.Log("Playing audio.");
             //}
             //}
-
             //else
             //{
             //    Debug.LogError("Failed to receive audio data.");
             //}
         }
-
 
         private async Task<byte[]> SendRequest(string ResponseText)
         {
@@ -75,7 +80,6 @@ namespace OpenAI
                 speed = 1f
             };
             string jsonPayload = JsonUtility.ToJson(payload);
-
 
             //TEST
             using (UnityWebRequest www = new UnityWebRequest("https://api.openai.com/v1/audio/speech", "POST"))
@@ -91,6 +95,9 @@ namespace OpenAI
                 if (www.result == UnityWebRequest.Result.ConnectionError || www.result == UnityWebRequest.Result.ProtocolError)
                 {
                     Debug.LogError("Error: " + www.error);
+                    //Report Error to the chatbox
+                    SendErrorMessage();
+
                 }
                 else if (www.result == UnityWebRequest.Result.Success)
                 {
@@ -98,6 +105,7 @@ namespace OpenAI
                     audioSource = audioObject.GetComponent<AudioSource>();
                     audioSource.clip = audioClip;
                     audioSource.Play();
+                    updatingLipSync = true;
                 }
             }
 
@@ -121,9 +129,33 @@ namespace OpenAI
             //    return request.downloadHandler.data;
             //}
             return null;
+        }
+
+        private void SendErrorMessage()
+        {
+            MyTextGeneratorInstance.ErrorMessage();
+        }
+
+        private void FixedUpdate()
+        {
+            if ((audioSource != null) && updatingLipSync == true)
+            {
+                if (audioSource.isPlaying)
+                {
+                    InworldFacialAnimationRPM.CallProcessLipSync();
+
+                }
+                else
+                {
+                    InworldFacialAnimationRPM.CallStopLipSync();
+                    updatingLipSync = false;
+                }
+            }
 
         }
 
+
+        //UNUSED///////////////////////////////////////////////////////
         private void PlayResponse(byte[] audioData)
         {
             if (audioData != null)
@@ -138,12 +170,6 @@ namespace OpenAI
 
         private async void LoadAndPlayAudio(byte[] audioData, string filePath) 
         {
-            //audioDataFloat = ConvertByteToFloat(audioData);
-            //Debug.Log("audioDataFloat.Length " + audioDataFloat.Length + "-" + audioDataFloat[0] + audioDataFloat[1]);
-            //audioSource.clip.GetData(audioDataFloat, 0);
-            //audioSource.clip.SetData(audioDataFloat, 0);
-            //audioSource.Play();
-
             using UnityWebRequest www = UnityWebRequestMultimedia.GetAudioClip("file://" + filePath, AudioType.MPEG);
             await www.SendWebRequest();
 
@@ -160,18 +186,6 @@ namespace OpenAI
                 audioSource.Play();
             }
             else Debug.LogError("Audio file loading error: " + www.error);
-        }
-
-        private float[] ConvertByteToFloat(byte[] byteArray)
-        {
-            int sampleCount = byteArray.Length / 2; // Assuming 16-bit audio
-            float[] floatArray = new float[sampleCount];
-            for (int i = 0; i < sampleCount; i++)
-            {
-                short value = BitConverter.ToInt16(byteArray, i * 2);
-                floatArray[i] = value / 32768.0f;
-            }
-            return floatArray;
         }
 
     }
