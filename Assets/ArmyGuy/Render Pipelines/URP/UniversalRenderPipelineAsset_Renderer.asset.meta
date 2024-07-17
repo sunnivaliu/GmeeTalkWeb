@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7c6281bc36e1151408c2078d8b25ad40
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/URP/UniversalRenderPipelineAsset_Renderer.asset
+  uploadId: 597250

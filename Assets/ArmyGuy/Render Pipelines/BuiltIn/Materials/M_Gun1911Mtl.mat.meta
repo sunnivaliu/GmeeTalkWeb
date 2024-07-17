@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 82d3da2a8e5e7a94a81f9d9c4cd03779
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/BuiltIn/Materials/M_Gun1911Mtl.mat
+  uploadId: 597250

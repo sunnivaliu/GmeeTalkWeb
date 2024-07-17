@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1bbb052daba1d384d80ecf59467e8060
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/URP/Materials/M_Gun1911Mtl_URP.mat
+  uploadId: 597250

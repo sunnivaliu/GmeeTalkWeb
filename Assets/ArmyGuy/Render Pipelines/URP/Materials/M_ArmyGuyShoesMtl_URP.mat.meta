@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d421eac50d6672c47b606ad4cf2da2ed
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/URP/Materials/M_ArmyGuyShoesMtl_URP.mat
+  uploadId: 597250

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 44a877db916d80e4091524141d203e73
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/URP/Scene/PlaneMat_URP.mat
+  uploadId: 597250

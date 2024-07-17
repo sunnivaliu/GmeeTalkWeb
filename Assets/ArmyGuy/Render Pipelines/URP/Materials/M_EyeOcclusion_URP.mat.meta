@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1d326330a7a983b46b8573d7b70fedf1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/URP/Materials/M_EyeOcclusion_URP.mat
+  uploadId: 597250

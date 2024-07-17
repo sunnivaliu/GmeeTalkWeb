@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ab72d31d526e0f64b91fc18aef280f04
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/URP/Materials/M_EyelashesMtl_URP.mat
+  uploadId: 597250

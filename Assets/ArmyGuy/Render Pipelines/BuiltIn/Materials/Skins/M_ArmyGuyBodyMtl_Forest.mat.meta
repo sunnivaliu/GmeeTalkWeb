@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 651d510185053e2468a3f370e005a11a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/BuiltIn/Materials/Skins/M_ArmyGuyBodyMtl_Forest.mat
+  uploadId: 597250

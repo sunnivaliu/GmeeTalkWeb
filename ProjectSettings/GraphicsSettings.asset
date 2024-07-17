@@ -33,6 +33,14 @@ GraphicsSettings:
   - {fileID: 15106, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 4800000, guid: 26a65b4e1a4339b42a361664c339af2e, type: 3}
+  - {fileID: 4800000, guid: 126cb26807359d644a8f3030a6c70c4e, type: 3}
+  - {fileID: 4800000, guid: a2f7a14c349f5334793b851ea0592616, type: 3}
+  - {fileID: 4800000, guid: cb0ca3d2acc24934db1a527947d699a7, type: 3}
+  - {fileID: 4800000, guid: 01f58dcb02a13dd4ebd6d25d66b30e7a, type: 3}
+  - {fileID: 4800000, guid: bf261a8d92597f948a7e2b3149230d0d, type: 3}
+  - {fileID: 4800000, guid: 9e6ee070ae766044a91e04559f53a3bf, type: 3}
+  - {fileID: 4800000, guid: e22764427d9bc0f4b86f9d6d01892a45, type: 3}
   m_PreloadedShaders: []
   m_PreloadShadersBatchTimeLimit: -1
   m_SpritesDefaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
@@ -56,7 +64,8 @@ GraphicsSettings:
   m_FogKeepExp: 1
   m_FogKeepExp2: 1
   m_AlbedoSwatchInfos: []
-  m_RenderPipelineGlobalSettingsMap: {}
+  m_RenderPipelineGlobalSettingsMap:
+    UnityEngine.Rendering.Universal.UniversalRenderPipeline: {fileID: 11400000, guid: 11ed27bedb9c54422940200a70bf7943, type: 2}
   m_LightsUseLinearIntensity: 0
   m_LightsUseColorTemperature: 0
   m_DefaultRenderingLayerMask: 1

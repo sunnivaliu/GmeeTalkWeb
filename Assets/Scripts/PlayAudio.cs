@@ -75,7 +75,7 @@ namespace OpenAI
             {
                 model = "tts-1",
                 input = ResponseText,
-                voice = "alloy",
+                voice = "alloy", //"alloy","onyx"
                 response_format = "mp3",
                 speed = 1f
             };

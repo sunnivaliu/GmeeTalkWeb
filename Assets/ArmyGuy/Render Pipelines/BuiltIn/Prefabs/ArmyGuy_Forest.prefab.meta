@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: aaa33d1a362e4ae4e982626520b703f6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/BuiltIn/Prefabs/ArmyGuy_Forest.prefab
+  uploadId: 597250

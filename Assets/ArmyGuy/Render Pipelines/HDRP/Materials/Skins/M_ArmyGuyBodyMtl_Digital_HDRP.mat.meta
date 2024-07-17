@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 37faaab2c5d8216459c900c013d0d615
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/HDRP/Materials/Skins/M_ArmyGuyBodyMtl_Digital_HDRP.mat
+  uploadId: 597250

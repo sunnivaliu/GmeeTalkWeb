@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1eb7d42db106c4441883ebae01ed3dac
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/HDRP/Materials/M_EyelashesMtl_HDRP.mat
+  uploadId: 597250

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a1af1ded9f58e0b42be47dc24224a2f7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/HDRP/Prefabs/ArmyGuy_BW.prefab
+  uploadId: 597250

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: bf261a8d92597f948a7e2b3149230d0d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275491
+  packageName: Real Human Girl 03
+  packageVersion: 3.0
+  assetPath: Assets/PyramisArts/Shaders_Human_3D/BIRP/Skin3D_Hidden.shader
+  uploadId: 645697

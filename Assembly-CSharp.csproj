@@ -61,63 +61,82 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2023.2.20f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/SpeechRecognitionResult.cs" />
     <Compile Include="Assets/Scripts/MyWhisper.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example05ProxyManagement.cs" />
     <Compile Include="Assets/Scripts/WavUtility.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/FxaaComponent.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/Example02Proxy.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/MotionBlurComponent.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/EditorProxySpeechSynthesisPlugin.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/AISbaitso.cs" />
+    <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/VirtualInputs/UIVirtualJoystick.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example01Dictation.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/GrainComponent.cs" />
+    <Compile Include="Assets/Scripts/MyTextGenerator.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example02SpeechCommands.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Dialect.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/ColorGradingModel.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Attributes/TrackballAttribute.cs" />
+    <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/ThirdPersonController.cs" />
+    <Compile Include="Assets/Samples/OpenAI Unity/0.2.0/Whisper/SaveWav.cs" />
+    <Compile Include="Assets/Samples/OpenAI Unity/0.2.0/Stream Response/StreamResponse.cs" />
+    <Compile Include="Assets/Scripts/MoveCamera.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/BaseSpeechDetectionPlugin.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/SpeechSynthesisUtils.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example09NoGUISpeechCommands.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/VignetteComponent.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/AntialiasingModel.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/EyeAdaptationModel.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/UserLutModel.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeech/Scripts/Example01DictationSynthesis.cs" />
+    <Compile Include="Assets/Scripts/ShowPanel.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Attributes/GetSetAttribute.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/SpeechProxyConfig.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/SpeechProxyConfig.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example04ProxyDictation.cs" />
+    <Compile Include="Assets/Scripts/EndingCreation.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/VirtualInputs/UIVirtualTouchZone.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/Example03ProxyManagement.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/PostProcessingModel.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/DetectionResult.cs" />
+    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/SpeechRecognitionResult.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/Example06NoGUI.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/Example07Buttons.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/ProxySpeechDetectionPlugin.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/SpeechSynthesisEvent.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/FxaaComponent.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/Example02Proxy.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/PostProcessingBehaviour.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/VignetteModel.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/MotionBlurComponent.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/EditorProxySpeechSynthesisPlugin.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/ColorGradingComponent.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/AISbaitso.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/SpeechSynthesisUtterance.cs" />
-    <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/VirtualInputs/UIVirtualJoystick.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/ProxySpeechSynthesisPlugin.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/SpeechRecognitionAlternative.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/FogModel.cs" />
     <Compile Include="Assets/Modern Office/Scripts/RotateMoveCamera.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example01Dictation.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/GrainComponent.cs" />
+    <Compile Include="Assets/Scripts/GlassWithMan.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Language.cs" />
     <Compile Include="Assets/Scripts/MySaveAudio.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/UserLutComponent.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/WWWEditMode.cs" />
-    <Compile Include="Assets/Scripts/MyTextGenerator.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/VoiceResult.cs" />
     <Compile Include="Assets/Scripts/MyInworldSessionCanvas.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example02SpeechCommands.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Utils/GraphicsUtils.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Dialect.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/ColorGradingModel.cs" />
     <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/VirtualControllerInput.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example03ProxyCommands.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Attributes/TrackballAttribute.cs" />
-    <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/ThirdPersonController.cs" />
-    <Compile Include="Assets/Samples/OpenAI Unity/0.2.0/Whisper/SaveWav.cs" />
-    <Compile Include="Assets/Scripts/MoveCamera.cs" />
-    <Compile Include="Assets/Samples/OpenAI Unity/0.2.0/Stream Response/StreamResponse.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/IWWW.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/IWWW.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/WWWPlayMode.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/BaseSpeechDetectionPlugin.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/TaaComponent.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example02Word.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/SpeechSynthesisUtils.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example09NoGUISpeechCommands.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/VignetteComponent.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/EditorProxySpeechDetectionPlugin.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/BloomModel.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/WWWEditMode.cs" />
@@ -130,50 +149,33 @@
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/WWWPlayMode.cs" />
     <Compile Include="Assets/Scripts/MyAudioListPlayer.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/ISpeechSynthesisPlugin.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/AntialiasingModel.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs" />
+    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/GrainModel.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs" />
     <Compile Include="Assets/Samples/OpenAI Unity/0.2.0/ChatGPT/ChatGPT.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Attributes/MinAttribute.cs" />
     <Compile Include="Assets/Scripts/PlayAudio.cs" />
     <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/PlayerInput.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/EyeAdaptationModel.cs" />
     <Compile Include="Assets/Samples/OpenAI Unity/0.2.0/Whisper/Whisper.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/WebGLSpeechDetectionPlugin.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/WebGLSpeechSynthesisPlugin.cs" />
     <Compile Include="Assets/Samples/WebGLSpeech/Scripts/Example02DictationSbaitso.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/UserLutModel.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeech/Scripts/Example01DictationSynthesis.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Attributes/GetSetAttribute.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/SpeechProxyConfig.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/Example01Synthesis.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/BloomComponent.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" />
     <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/VirtualInputs/UIVirtualButton.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/BaseSpeechSynthesisPlugin.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/PostProcessingContext.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/SpeechProxyConfig.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/DitheringModel.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/Example04SbaitsoClone.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/ISpeechDetectionPlugin.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/LanguageChangedResult.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example04ProxyDictation.cs" />
-    <Compile Include="Assets/Scripts/EndingCreation.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/PostProcessingComponent.cs" />
     <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Environment/Scripts/MaterialsSetup.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/PostProcessingProfile.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Components/DitheringComponent.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/Voice.cs" />
     <Compile Include="Assets/Modern Office/PostProcessing/Runtime/Utils/MaterialFactory.cs" />
-    <Compile Include="Assets/Samples/Avaturn.WebView/2.0.0/WebGL and Mobile/Runtime/_Data/Plugins/Third Person Controller/Scripts/VirtualInputs/UIVirtualTouchZone.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/Example03ProxyManagement.cs" />
-    <Compile Include="Assets/Modern Office/PostProcessing/Runtime/PostProcessingModel.cs" />
-    <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/DetectionResult.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechSynthesis/Scripts/Example07Simple.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/SpeechDetectionUtils.cs" />
     <Compile Include="Assets/Samples/WebGLSpeechDetection/Scripts/Example08NoGUIDictation.cs" />
@@ -183,6 +185,7 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
     <None Include="Assets/Modern Office/PostProcessing/Resources/Shaders/ScreenSpaceReflection.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/PyramisArts/Shaders_Human_3D/BIRP/Skin3D.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets/Modern Office/PostProcessing/Resources/Shaders/GrainGen.shader" />
     <None Include="Assets/Modern Office/PostProcessing/Editor Resources/Monitors/HistogramCompute.compute" />
@@ -190,17 +193,21 @@
     <None Include="Assets/Modern Office/PostProcessing/Resources/Shaders/EyeAdaptation.shader" />
     <None Include="Assets/Modern Office/PostProcessing/Utilities/CustomMotionTexture/Shaders/CustomMotionVectorTexture.shader" />
     <None Include="Assets/Modern Office/PostProcessing/Editor Resources/UI/CurveBackground.shader" />
+    <None Include="Assets/PyramisArts/Shaders_Human_3D/BIRP/EyesParallax_3D.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
     <None Include="Assets/Modern Office/PostProcessing/Resources/Shaders/BuiltinDebugViews.shader" />
+    <None Include="Assets/PyramisArts/Shaders_Human_3D/BIRP/Hair_1st_Pass.shader" />
     <None Include="Assets/Modern Office/PostProcessing/Resources/Shaders/EyeAdaptation.cginc" />
     <None Include="Assets/Modern Office/PostProcessing/Resources/Shaders/LutGen.shader" />
     <None Include="Assets/Modern Office/PostProcessing/Resources/Shaders/EyeHistogram.compute" />
+    <None Include="Assets/PyramisArts/Shaders_Human_3D/BIRP/Tongue.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/Modern Office/PostProcessing/Resources/Shaders/TAA.cginc" />
     <None Include="Assets/Modern Office/PostProcessing/Resources/Shaders/AmbientOcclusion.cginc" />
     <None Include="Assets/Modern Office/PostProcessing/Editor Resources/Monitors/VectorscopeCompute.compute" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/PyramisArts/Shaders_Human_3D/BIRP/AlphaBlend_DblSided.shader" />
     <None Include="Assets/Modern Office/PostProcessing/Resources/Shaders/ColorGrading.cginc" />
     <None Include="Assets/Modern Office/PostProcessing/Editor Resources/Monitors/HistogramRender.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl" />
@@ -229,6 +236,7 @@
     <None Include="Assets/Modern Office/PostProcessing/Resources/Bluenoise64/COPYING.txt" />
     <None Include="Assets/Modern Office/PostProcessing/Editor Resources/UI/Trackball.shader" />
     <None Include="Assets/Modern Office/PostProcessing/Editor Resources/Monitors/WaveformRender.shader" />
+    <None Include="Assets/PyramisArts/Shaders_Human_3D/BIRP/Hair_2nd_Pass.shader" />
     <None Include="Assets/Modern Office/PostProcessing/Resources/Shaders/Common.cginc" />
     <None Include="Assets/Modern Office/PostProcessing/Editor Resources/Monitors/VectorscopeRender.shader" />
     <None Include="Assets/Modern Office/PostProcessing/Resources/Shaders/Bloom.shader" />
@@ -243,7 +251,11 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/PyramisArts/Shaders_Human_3D/BIRP/Teeth3D.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/PyramisArts/Shaders_Human_3D/BIRP/TwoSided.shader" />
+    <None Include="Assets/PyramisArts/Shaders_Human_3D/BIRP/TwoSided_Hidden.shader" />
+    <None Include="Assets/PyramisArts/Shaders_Human_3D/BIRP/Skin3D_Hidden.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -675,6 +687,10 @@
       <HintPath>/Applications/Unity/Hub/Editor/2023.2.20f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library/PackageCache/com.unity.collections@1.4.0/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit@2.0.5/net40/unity-custom/nunit.framework.dll</HintPath>
       <Private>False</Private>
@@ -689,6 +705,10 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
@@ -1207,8 +1227,120 @@
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityWebSocket.Runtime">
+      <HintPath>Library/ScriptAssemblies/UnityWebSocket.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="glTFast.dots">
+      <HintPath>Library/ScriptAssemblies/glTFast.dots.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="glTFast">
+      <HintPath>Library/ScriptAssemblies/glTFast.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+      <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityWebSocket.Editor">
+      <HintPath>Library/ScriptAssemblies/UnityWebSocket.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Avaturn.Core.Runtime">
+      <HintPath>Library/ScriptAssemblies/Avaturn.Core.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenAI.Editor">
+      <HintPath>Library/ScriptAssemblies/OpenAI.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library/ScriptAssemblies/PPv2URPConverters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rendering.LightTransport.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Rendering.LightTransport.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniWebView-CSharp">
+      <HintPath>Library/ScriptAssemblies/UniWebView-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Collections.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
@@ -1223,96 +1355,60 @@
       <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityWebSocket.Runtime">
-      <HintPath>Library/ScriptAssemblies/UnityWebSocket.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="glTFast.dots">
-      <HintPath>Library/ScriptAssemblies/glTFast.dots.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityWebSocket.Editor">
-      <HintPath>Library/ScriptAssemblies/UnityWebSocket.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Play.Publisher.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll</HintPath>
+    <Reference Include="Cinemachine">
+      <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="glTFast">
-      <HintPath>Library/ScriptAssemblies/glTFast.dll</HintPath>
+    <Reference Include="Unity.Play.Publisher.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Inworld.AI">
       <HintPath>Library/ScriptAssemblies/Inworld.AI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="uLipSync.Editor">
       <HintPath>Library/ScriptAssemblies/uLipSync.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UniWebView-CSharp.Editor">
@@ -1327,20 +1423,16 @@
       <HintPath>Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenAI.Editor">
-      <HintPath>Library/ScriptAssemblies/OpenAI.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Avaturn.Core.Runtime">
-      <HintPath>Library/ScriptAssemblies/Avaturn.Core.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="glTFast.Editor">
@@ -1351,20 +1443,40 @@
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+    <Reference Include="Unity.Rendering.LightTransport.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.Rendering.LightTransport.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
       <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UniWebView-CSharp">
-      <HintPath>Library/ScriptAssemblies/UniWebView-CSharp.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="uLipSync.Samples.WebGL.Runtime.csproj">
+      <Project>{B29FA2AF-7E5D-8E6A-232D-FD4D259B8B4E}</Project>
+      <Name>uLipSync.Samples.WebGL.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="InworldAI.Native.csproj">
+      <Project>{EE89390F-C4F7-272F-D53B-142E25ACA1FF}</Project>
+      <Name>InworldAI.Native</Name>
+    </ProjectReference>
+    <ProjectReference Include="uLipSync.Samples.Common.csproj">
+      <Project>{8063AB86-E935-EF24-FA4B-54B057198711}</Project>
+      <Name>uLipSync.Samples.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="IngameDebugConsole.Editor.csproj">
+      <Project>{531C531F-59F7-D748-E836-E7EFB3A26CD9}</Project>
+      <Name>IngameDebugConsole.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Inworld.RPM.csproj">
+      <Project>{15E1947C-00B0-1621-712E-9251B8782E00}</Project>
+      <Name>Inworld.RPM</Name>
+    </ProjectReference>
     <ProjectReference Include="Estrada.csproj">
       <Project>{C6224A9D-EEA0-89A3-C43B-FD19BB555FFF}</Project>
       <Name>Estrada</Name>
@@ -1377,37 +1489,17 @@
       <Project>{28E2E31D-C6FC-764E-F445-A4EE6761EB3F}</Project>
       <Name>UnityChan</Name>
     </ProjectReference>
-    <ProjectReference Include="uLipSync.Samples.WebGL.Runtime.csproj">
-      <Project>{B29FA2AF-7E5D-8E6A-232D-FD4D259B8B4E}</Project>
-      <Name>uLipSync.Samples.WebGL.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Inworld.Editor.csproj">
       <Project>{B2E94ED8-DC16-7129-8924-1048C4BFC39B}</Project>
       <Name>Inworld.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="InworldAI.Native.csproj">
-      <Project>{EE89390F-C4F7-272F-D53B-142E25ACA1FF}</Project>
-      <Name>InworldAI.Native</Name>
     </ProjectReference>
     <ProjectReference Include="Inworld.Samples.csproj">
       <Project>{E4BE778E-51E7-3FEE-B4DF-48F696233D36}</Project>
       <Name>Inworld.Samples</Name>
     </ProjectReference>
-    <ProjectReference Include="uLipSync.Samples.Common.csproj">
-      <Project>{8063AB86-E935-EF24-FA4B-54B057198711}</Project>
-      <Name>uLipSync.Samples.Common</Name>
-    </ProjectReference>
     <ProjectReference Include="uLipSync.Example.RuntimeProfile.Runtime.csproj">
       <Project>{8E6E8991-E081-6C1C-3E65-054E0A349DBC}</Project>
       <Name>uLipSync.Example.RuntimeProfile.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="IngameDebugConsole.Editor.csproj">
-      <Project>{531C531F-59F7-D748-E836-E7EFB3A26CD9}</Project>
-      <Name>IngameDebugConsole.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Inworld.RPM.csproj">
-      <Project>{15E1947C-00B0-1621-712E-9251B8782E00}</Project>
-      <Name>Inworld.RPM</Name>
     </ProjectReference>
     <ProjectReference Include="Inworld.Assets.csproj">
       <Project>{A1181B1A-F894-1415-F621-06D0D50BF748}</Project>

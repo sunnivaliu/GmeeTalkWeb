@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e8ec5b82a5c296b4084075299b6752ff
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/BuiltIn/Materials/Skins/M_ArmyGuyPantsMtl_Digital.mat
+  uploadId: 597250

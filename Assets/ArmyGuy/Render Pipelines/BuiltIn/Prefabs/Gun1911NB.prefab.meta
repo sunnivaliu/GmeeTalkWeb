@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2fa6cec25af560143932d75e9cc40cbf
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/BuiltIn/Prefabs/Gun1911NB.prefab
+  uploadId: 597250

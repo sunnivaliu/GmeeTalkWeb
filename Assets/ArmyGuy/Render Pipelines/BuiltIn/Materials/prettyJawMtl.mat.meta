@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 373e11c2694badc41bc77b7bfd3b0f3b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/BuiltIn/Materials/prettyJawMtl.mat
+  uploadId: 597250

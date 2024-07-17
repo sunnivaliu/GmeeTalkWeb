@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2344ad0e47fafbf498fd45b14003c51f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/HDRP/Materials/M_EyeOcclusion_HDRP.mat
+  uploadId: 597250

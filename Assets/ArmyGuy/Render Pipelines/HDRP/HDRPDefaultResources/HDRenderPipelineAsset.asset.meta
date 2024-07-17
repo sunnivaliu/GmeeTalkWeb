@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dbef6672979f9214597f317869b4418b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/HDRP/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  uploadId: 597250

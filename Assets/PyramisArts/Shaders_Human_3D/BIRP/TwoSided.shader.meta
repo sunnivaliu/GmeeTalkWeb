@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7f05ec2b3a74aaa469947b8ea447f69e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275491
+  packageName: Real Human Girl 03
+  packageVersion: 3.0
+  assetPath: Assets/PyramisArts/Shaders_Human_3D/BIRP/TwoSided.shader
+  uploadId: 645697

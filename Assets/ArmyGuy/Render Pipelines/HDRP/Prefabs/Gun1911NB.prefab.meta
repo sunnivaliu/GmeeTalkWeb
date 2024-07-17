@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7cf143274f1ea5a499264109193567a8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/HDRP/Prefabs/Gun1911NB.prefab
+  uploadId: 597250

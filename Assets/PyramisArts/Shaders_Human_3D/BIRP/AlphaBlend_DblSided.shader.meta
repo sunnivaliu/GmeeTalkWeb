@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 26a65b4e1a4339b42a361664c339af2e
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275491
+  packageName: Real Human Girl 03
+  packageVersion: 3.0
+  assetPath: Assets/PyramisArts/Shaders_Human_3D/BIRP/AlphaBlend_DblSided.shader
+  uploadId: 645697

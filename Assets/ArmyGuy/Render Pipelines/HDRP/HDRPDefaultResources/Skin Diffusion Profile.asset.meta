@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 291526798d527f14ea37dfc577943c4b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/HDRP/HDRPDefaultResources/Skin Diffusion
+    Profile.asset
+  uploadId: 597250

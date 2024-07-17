@@ -62,25 +62,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/Animation/Facial/InworldFacialEmotion.cs" />
-    <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/UI/ChatBubble3D.cs" />
     <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/Animation/Body/ResetNeutral.cs" />
     <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/UI/ChatPanel3D.cs" />
     <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/PlayerControl/InworldCameraController.cs" />
-    <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/Animation/Facial/InworldFacialAnimation.cs" />
     <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/Sample/AudioCaptureTest.cs" />
     <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/PlayerControl/PlayerController3D.cs" />
+    <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/CharacterHandler/InworldCharacter3D.cs" />
+    <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/UI/Subtitle.cs" />
+    <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/Animation/AnimEnum.cs" />
+    <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/CharacterHandler/CharacterHandler3D.cs" />
+    <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/UI/ChatBubble3D.cs" />
+    <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/Animation/Facial/InworldFacialAnimation.cs" />
     <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/UI/FeedbackButton.cs" />
     <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/Animation/Facial/LipsyncMap.cs" />
     <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/Animation/Body/InworldBodyAnimation.cs" />
     <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/CharacterHandler/SightAngle.cs" />
     <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/UI/FeedbackCanvas.cs" />
     <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/UI/ConfigCanvas.cs" />
-    <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/CharacterHandler/InworldCharacter3D.cs" />
-    <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/UI/Subtitle.cs" />
-    <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/Animation/AnimEnum.cs" />
     <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/Animation/Facial/EmotionMap.cs" />
     <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/Animation/InworldAnimation.cs" />
-    <Compile Include="Assets/Inworld/Inworld.Assets/Scripts/CharacterHandler/CharacterHandler3D.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Inworld/Inworld.Assets/Inworld.Assets.asmdef" />
@@ -534,6 +534,10 @@
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library/PackageCache/com.unity.collections@1.4.0/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit@2.0.5/net40/unity-custom/nunit.framework.dll</HintPath>
       <Private>False</Private>
@@ -572,6 +576,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

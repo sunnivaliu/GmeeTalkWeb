@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1dfeea124b05f914dba7073b631290c6
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/ArmyGuy HDRP.unity
+  uploadId: 597250

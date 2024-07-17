@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 01f58dcb02a13dd4ebd6d25d66b30e7a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275491
+  packageName: Real Human Girl 03
+  packageVersion: 3.0
+  assetPath: Assets/PyramisArts/Shaders_Human_3D/BIRP/Skin3D.shader
+  uploadId: 645697

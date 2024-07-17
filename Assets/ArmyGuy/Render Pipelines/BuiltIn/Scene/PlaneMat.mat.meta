@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b940b9b46f6102e4d9f227687691ab55
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/BuiltIn/Scene/PlaneMat.mat
+  uploadId: 597250

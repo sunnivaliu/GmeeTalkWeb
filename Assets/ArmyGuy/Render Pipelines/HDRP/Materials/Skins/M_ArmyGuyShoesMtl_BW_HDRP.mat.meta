@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fd3f25e3d60a3274d8174558444f55cf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/HDRP/Materials/Skins/M_ArmyGuyShoesMtl_BW_HDRP.mat
+  uploadId: 597250

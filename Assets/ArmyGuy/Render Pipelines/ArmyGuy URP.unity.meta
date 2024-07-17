@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 03c3a16d520dc6b40b66c5a7a295a750
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/ArmyGuy URP.unity
+  uploadId: 597250

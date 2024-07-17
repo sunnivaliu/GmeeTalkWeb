@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 70a94fae1e3e1fe40abe8bad5a1b8a6c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/HDRP/Materials/M_ArmyGuyPantsMtl_HDRP.mat
+  uploadId: 597250

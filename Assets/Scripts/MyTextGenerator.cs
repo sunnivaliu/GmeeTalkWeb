@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace OpenAI
@@ -29,6 +30,15 @@ namespace OpenAI
         {
             button.onClick.AddListener(SendReply); //API is called once 'Send' is pressed
             startButton.onClick.AddListener(RestartChat);
+        }
+
+        void Update() //DEBUG
+        {
+            //if (Input.GetKey(KeyCode.Space))
+            //{
+            //    Debug.Log("Restart Chat");
+            //    RestartChat();
+            //}
         }
 
         private void RestartChat()
@@ -104,10 +114,16 @@ namespace OpenAI
                 var message = completionResponse.Choices[0].Message;
                 message.Content = message.Content.Trim();
                 messages.Add(message);
-                AppendMessage(message); //Push to canvas
-                EndingCreation.checkEnding(message.Content); //Check if this is the ending
+
+                //Check if this is the ending
+                EndingCreation.checkEnding(message.Content);
+
                 PlayAudioInstance = PlayAudioObject.GetComponent<PlayAudio>();
                 PlayAudioInstance.TurnReplyToAudio(message.Content);
+
+                //Push to canvas
+                StartCoroutine(AddAndAppendMessageWithDelay(message, 2f));
+                //AppendMessage(message);
             }
             else
             {
@@ -116,7 +132,13 @@ namespace OpenAI
 
             button.enabled = true;
             inputField.enabled = true; 
-            
+           
+        }
+
+        IEnumerator AddAndAppendMessageWithDelay(ChatMessage message, float delay)
+        {
+            yield return new WaitForSeconds(delay);
+            AppendMessage(message);
         }
 
         public void ErrorMessage()

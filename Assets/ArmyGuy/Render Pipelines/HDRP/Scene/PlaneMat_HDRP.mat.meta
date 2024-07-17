@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8b446624a9a880a45b530e6607bd1f2f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/HDRP/Scene/PlaneMat_HDRP.mat
+  uploadId: 597250

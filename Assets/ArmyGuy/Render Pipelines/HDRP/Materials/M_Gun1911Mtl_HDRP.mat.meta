@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6052aa520647a21458d08004a0729d70
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/HDRP/Materials/M_Gun1911Mtl_HDRP.mat
+  uploadId: 597250

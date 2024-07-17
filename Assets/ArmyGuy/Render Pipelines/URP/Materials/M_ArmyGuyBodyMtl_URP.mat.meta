@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d964b10a000c42642a6928b3aaabda2c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/URP/Materials/M_ArmyGuyBodyMtl_URP.mat
+  uploadId: 597250

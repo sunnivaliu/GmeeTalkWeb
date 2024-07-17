@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: cb0ca3d2acc24934db1a527947d699a7
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275491
+  packageName: Real Human Girl 03
+  packageVersion: 3.0
+  assetPath: Assets/PyramisArts/Shaders_Human_3D/BIRP/Hair_2nd_Pass.shader
+  uploadId: 645697

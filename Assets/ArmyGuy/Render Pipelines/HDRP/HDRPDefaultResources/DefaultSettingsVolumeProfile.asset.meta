@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4dae649285302f44cb22fd45068e7f01
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/HDRP/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  uploadId: 597250

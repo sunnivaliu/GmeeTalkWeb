@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{69017E71-63DA-5DF6-6358-8C7B9A21EA42}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CreatePromptings.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MoveCamera.cs">
     <Files>
       <File FileName="Assets/Modern Office/Scripts/RotateMoveCamera.cs" Line="23" Column="6" />
-      <File FileName="Assets/Scripts/MySaveAudio.cs" Line="4" Column="26" />
-      <File FileName="Assets/Scripts/MyWhisper.cs" Line="87" Column="50" />
-      <File FileName="Assets/Scripts/CreatePromptings.cs" Line="19" Column="17" />
-      <File FileName="Assets/Scripts/MyTextGenerator.cs" Line="108" Column="23" />
-      <File FileName="Assets/Scripts/PlayAudio.cs" Line="9" Column="26" />
-      <File FileName="Assets/Scripts/EndingCreation.cs" Line="37" Column="32" />
+      <File FileName="Assets/Scripts/MySaveAudio.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MyWhisper.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/CreatePromptings.cs" />
+      <File FileName="Assets/Scripts/MyTextGenerator.cs" Line="40" Column="33" />
+      <File FileName="Assets/Scripts/PlayAudio.cs" Line="28" Column="1" />
+      <File FileName="Assets/Scripts/EndingCreation.cs" />
+      <File FileName="Assets/Scripts/MoveCamera.cs" Line="42" Column="41" />
+      <File FileName="Assets/Scripts/ShowPanel.cs" Line="37" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,16 +17,11 @@
           <Node name="GMeeTalk-WebGL" expanded="True" selected="True" />
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dfaf6b32-ecd1-42a7-bdc9-6475ecfdb3e8" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="01d2311d-567c-41cb-a2a4-2208e73303ad" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

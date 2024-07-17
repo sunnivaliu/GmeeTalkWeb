@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 70269ce01a80fa84ab51efd1237ddea0
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 222433
+  packageName: Army Guy
+  packageVersion: 1.1
+  assetPath: Assets/ArmyGuy/Render Pipelines/ArmyGuy Built-In.unity
+  uploadId: 597250
