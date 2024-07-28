@@ -396,7 +396,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/PyramisArts/Real_Human_Girl_03/Materials/Clothes/Longsleeve/Textures
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -406,16 +406,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/PyramisArts/Real_Human_Girl_03/Materials/Clothes/Longsleeve/Textures
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/sunniva/Desktop/GMeeTalk-WebGL
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 734}
-    m_SelectedIDs: e67e0100
-    m_LastClickedID: 98022
-    m_ExpandedIDs: 00000000f8b60000fab60000fcb60000feb6000000b7000002b7000004b7000006b7000008b700000ab700000cb700000eb7000010b7000012b7000014b7000016b7000018b700001ab700001cb700001eb7000020b7000022b7000024b7000026b7000028b700002ab700002cb700002eb7000030b7000032b7000034b7000036b7000038b700003ab700003cb700003eb7000040b7000042b7000044b7000046b70000
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 0eb70000
+    m_LastClickedID: 46862
+    m_ExpandedIDs: 00000000fcb60000feb6000000b7000002b7000004b7000006b7000008b700000ab700000cb700000eb7000010b7000012b7000014b7000016b7000018b700001ab700001cb700001eb7000020b7000022b7000024b7000026b7000028b700002ab700002cb700002eb7000030b7000032b7000034b7000036b7000038b700003ab700003cb700003eb7000040b7000042b7000044b7000046b7000048b700004ab70000c2c8000018c900001ac900001cc900001ec9000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -444,7 +444,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f8b60000fab60000fcb60000feb6000000b7000002b7000004b7000006b7000008b700000ab700000cb700000eb7000010b7000012b7000014b7000016b7000018b700001ab700001cb700001eb7000020b7000022b7000024b7000026b7000028b700002ab700002cb700002eb7000030b7000032b7000034b7000036b7000038b700003ab700003cb700003eb7000040b7000042b7000044b7000046b70000
+    m_ExpandedIDs: 00000000fcb60000feb6000000b7000002b7000004b7000006b7000008b700000ab700000cb700000eb7000010b7000012b7000014b7000016b7000018b700001ab700001cb700001eb7000020b7000022b7000024b7000026b7000028b700002ab700002cb700002eb7000030b7000032b7000034b7000036b7000038b700003ab700003cb700003eb7000040b7000042b7000044b7000046b7000048b700004ab70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -592,7 +592,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0626ffff5426ffff062dffffbca0ffff16a1ffff20a1ffff30a1ffffdafafffffaad000068ae00007aae000088ae0000b0ae0000e8ae00001aaf000038af000086af0000b6af0000f2af000010b0000022b00000beb0000002b100001eb10000
+      m_ExpandedIDs: dafaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1162,11 +1162,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.27313253, y: 0.08700591, z: -0.024810297, w: -0.95773846}
     speed: 2
-    m_Value: {x: -0.27316266, y: 0.08556708, z: -0.024399964, w: -0.9578441}
+    m_Value: {x: -0.27313253, y: 0.08700591, z: -0.024810296, w: -0.95773846}
   m_Size:
     m_Target: 2.3643212
     speed: 2
-    m_Value: 2.3572495
+    m_Value: 2.3643212
   m_Ortho:
     m_Target: 1
     speed: 2
