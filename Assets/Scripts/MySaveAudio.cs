@@ -34,15 +34,31 @@ namespace Samples.Whisper
 		{
 			var samples = new float[clip.samples];
 
-			Estrada.Microphone.GetCurrentData(samples, clip.samples);
-			//clip.GetData(samples, 0);
-
+			//Estrada.Microphone.GetCurrentData(samples, clip.samples);
+			clip.GetData(samples, 0);
 			return TrimSilence(new List<float>(samples), min, clip.channels, clip.frequency);
 		}
 
 		public static AudioClip TrimSilence(List<float> samples, float min, int channels, int hz, bool stream = false)
 		{
 			int i;
+
+			//ADDED: find min (and max), and trim silence based on identified range
+			float maxS = 0f;
+			float minS = 0f;
+			for (i = 0; i < samples.Count; i++)
+			{
+				if (Mathf.Abs(samples[i]) < minS)
+				{
+					minS = Mathf.Abs(samples[i]);
+				}
+				if (Mathf.Abs(samples[i]) > maxS)
+				{
+					maxS = Mathf.Abs(samples[i]);
+				}
+			}
+			min = minS;
+			//
 
 			for (i = 0; i < samples.Count; i++)
 			{
@@ -51,7 +67,6 @@ namespace Samples.Whisper
 					break;
 				}
 			}
-
 			samples.RemoveRange(0, i);
 
 			for (i = samples.Count - 1; i > 0; i--)
@@ -61,6 +76,7 @@ namespace Samples.Whisper
 					break;
 				}
 			}
+			Debug.Log("i2: " + i);
 
 			samples.RemoveRange(i, samples.Count - i);
 

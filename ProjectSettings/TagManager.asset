@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Input-Feedback
   - Input-FeedbackTitle
+  - Input-FeedbackText
+  - Scroll-Feedback
   layers:
   - Default
   - TransparentFX

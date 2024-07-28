@@ -73,6 +73,8 @@ namespace OpenAI
                 Role = "user",
                 Content = Samples.Whisper.MyWhisper.TranscribedText
             };
+            Debug.Log("Transcribed" + newMessage.Content);
+
             //reset audio input
             Samples.Whisper.MyWhisper.TranscribedText = "";
 
