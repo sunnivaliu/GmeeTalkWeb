@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{69017E71-63DA-5DF6-6358-8C7B9A21EA42}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MyWhisper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EndingCreation.cs">
     <Files>
       <File FileName="Assets/Scripts/MyTextGenerator.cs" Line="56" Column="1" IsPinned="True" />
       <File FileName="Assets/Modern Office/Scripts/RotateMoveCamera.cs" Line="23" Column="6" />
       <File FileName="Assets/Scripts/MySaveAudio.cs" Line="64" Column="5" />
-      <File FileName="Assets/Scripts/MyWhisper.cs" Line="52" Column="54" />
+      <File FileName="Assets/Scripts/MyWhisper.cs" Line="48" Column="1" />
       <File FileName="Assets/Scripts/CreatePromptings.cs" Line="8" Column="38" />
       <File FileName="Assets/Scripts/PlayAudio.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/EndingCreation.cs" Line="12" Column="48" />
+      <File FileName="Assets/Scripts/EndingCreation.cs" Line="25" Column="1" />
       <File FileName="Assets/Scripts/MoveCamera.cs" Line="1" Column="1" />
       <File FileName="Assets/Samples/OpenAI Unity/0.2.0/Whisper/SaveWav.cs" Line="85" Column="6" />
     </Files>
@@ -27,7 +27,7 @@
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="MyWhisper.cs" selected="True" />
+                <Node name="EndingCreation.cs" selected="True" />
               </Node>
             </Node>
           </Node>
